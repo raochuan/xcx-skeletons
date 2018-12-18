@@ -17,3 +17,20 @@
 .big-img{
     width: 100%;
 }
+.title{
+    font-size: 60rpx;
+    color: #666;
+}
+.desc{
+    font-size: 30rpx;
+    color: #333;
+    margin: 30rpx;
+}
+.clamp2-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+  }
