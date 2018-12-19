@@ -1,2 +1,4 @@
-<!--pages/components/network.wxml-->
-<text>pages/components/network.wxml</text>
+<view class='net-wrap'>
+  <view class='text'>网络错误页</view>
+  <image mode="scaleToFill" src="https://file.40017.cn/travelassistant/weixin/pub/image/shareIcon/kongtai.png" />
+</view>

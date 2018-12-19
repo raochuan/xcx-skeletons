@@ -1,2 +1,3 @@
-<!--components/skeletons.wxml-->
-<text>components/skeletons.wxml</text>
+<view class="skeletons-wrap">
+  <view>我是骨架</view>
+</view>
