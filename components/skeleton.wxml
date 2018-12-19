@@ -1,0 +1,8 @@
+<view class="skeleton-wrap">
+  <block wx:if="{{circle_list && circle_list.length > 0}}">
+  <view class="skeleton-circle skeletons-graph shine" wx:for="{{circle_list}}" wx:key="{{index}}" style="width:{{item.width}}px;height:{{item.height}}px;left:{{item.left}}px;top:{{item.top}}px;"></view>
+  </block>
+  <block wx:if="{{rect_list && rect_list.length > 0}}">
+  <view class="skeleton-rect skeletons-graph shine" wx:for="{{rect_list}}" wx:key="{{index}}" style="width:{{item.width}}px;height:{{item.height}}px;left:{{item.left}}px;top:{{item.top}}px;"></view>
+  </block>
+</view>

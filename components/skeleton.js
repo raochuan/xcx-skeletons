@@ -10,8 +10,11 @@ Component({
       observer(newVal,oldVal){
         if (newVal){
           //完成nodes节点渲染
-          let selector = this.getSelector(".skeletons-circle")
-          this.getQueryBoundRect(selector);
+          this.circle_list = this.getSelector(".skeleton-circle")
+          this.rect_list = this.getSelector(".skeleton-rect");
+          ["rect_list","circle_list"].forEach(item => {
+            this.getQueryBoundRect(item,this[item],this);
+          });
         }
       }
     }
@@ -21,7 +24,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    rect_list: [],
+    circle_list: [],
   },
   attached(){
     
@@ -33,9 +37,13 @@ Component({
     getSelector:(name) => {
       return wx.createSelectorQuery().selectAll(name)
     },
-    getQueryBoundRect:(selector) => {
+    getQueryBoundRect:(name,selector,that) => {
       selector.boundingClientRect().exec((res) => {
-        console.log ("dom选择后:",res)
+        console.log ("dom选择后:",name,res[0])
+        console.log (that.data)
+        that.setData({
+          [name]: res[0]
+        })
       })
     }
   }

@@ -1,10 +1,10 @@
-<view class="wrap skeletons">
-    <view class="head-img skeletons-circle"><open-data type='userAvatarUrl'></open-data></view>
-    <view class="nick-name"><open-data type='userNickName'></open-data></view>
-    <view class="title">骨架屏测试</view>
-    <view class="desc clamp2-ellipsis">骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试</view>
-    <image mode='widthFix' src='https://file.40017.cn/travelassistant/static/flightDetail/flight_card_state@2x.png'></image>
-    <image mode="scaleToFill" src="https://file.40017.cn/creative/img/bg_insurance.png" class="big-img"/>
-    <network></network>
-    <skeletons nodes_complete="{{nodesComplete}}"></skeletons>
+<view class="wrap skeleton">
+    <view class="head-img skeleton-circle"><open-data type='userAvatarUrl'></open-data></view>
+    <view class="nick-name skeleton-rect"><open-data type='userNickName'></open-data></view>
+    <view class="title skeleton-rect">骨架屏测试</view>
+    <view class="desc clamp2-ellipsis skeleton-rect">骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试</view>
+    <image mode='widthFix' class="skeleton-rect" src='https://file.40017.cn/travelassistant/static/flightDetail/flight_card_state@2x.png'></image>
+    <image mode="scaleToFill" class="big-img skeleton-rect" src="https://file.40017.cn/creative/img/bg_insurance.png"/>
+    <network class="skeleton-rect"></network>
+    <skeleton nodes_complete="{{nodesComplete}}"></skeleton>
 </view>

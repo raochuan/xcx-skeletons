@@ -1,6 +1,6 @@
 {
     "usingComponents":{
       "network": "../components/network",
-      "skeletons":"../../components/skeletons"
+      "skeleton":"../../components/skeleton"
     }
   }
