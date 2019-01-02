@@ -1,1 +1,3 @@
-/* pages/components/network.wxss */
+.net-wrap{
+  position: relative;
+}

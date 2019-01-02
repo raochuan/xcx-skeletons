@@ -5,6 +5,6 @@
     <view class="desc clamp2-ellipsis skeleton-rect">骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试骨架屏测试</view>
     <image mode='widthFix' class="skeleton-rect" src='https://file.40017.cn/travelassistant/static/flightDetail/flight_card_state@2x.png'></image>
     <image mode="scaleToFill" class="big-img skeleton-rect" src="https://file.40017.cn/creative/img/bg_insurance.png"/>
-    <network class="skeleton-rect"></network>
-    <skeleton nodes_complete="{{nodesComplete}}" wx:if="{{true}}"></skeleton>
+    <network class="skeleton-rect" nodes_complete="{{nodesComplete}}"></network>
+    <skeleton nodes_complete="{{nodesComplete}}" wx:if="{{false}}"></skeleton>
 </view>

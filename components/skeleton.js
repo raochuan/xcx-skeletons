@@ -40,7 +40,7 @@ Component({
     getQueryBoundRect:(name,selector,that) => {
       selector.boundingClientRect().exec((res) => {
         console.log ("dom选择后:",name,res[0])
-        console.log (that.data)
+        console.log(res)
         that.setData({
           [name]: res[0]
         })

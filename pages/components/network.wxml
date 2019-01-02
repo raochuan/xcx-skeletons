@@ -1,4 +1,6 @@
-<view class='net-wrap'>
-  <view class='text'>网络错误页</view>
-  <image mode="scaleToFill skeleton-circle" src="https://file.40017.cn/travelassistant/weixin/pub/image/shareIcon/kongtai.png" />
+<view class='net-wrap' data-wrap="1">
+  <view class='text skeleton-rect' data-test="2">网络错误页</view>
+  <image mode="scaleToFill" data-img="1"
+src="https://file.40017.cn/travelassistant/weixin/pub/image/shareIcon/kongtai.png" />
+  <skeleton nodes_complete="{{nodesComplete}}" wx:if="{{true}}"></skeleton>
 </view>

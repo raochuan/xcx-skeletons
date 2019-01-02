@@ -1,11 +1,11 @@
-// pages/index/index.js
+// pages/My/My.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    nodesComplete:false
+
   },
 
   /**
@@ -19,18 +19,14 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    const that = this
-    setTimeout(() => {
-      that.setData({
-        nodesComplete: true
-      })
-    },600)
+
   },
+
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log("ready")
+
   },
 
   /**
